@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: pet-command
+          uri: http://localhost:8001
+          predicates:
+            - Path=/api/v1/pets/{petId:[0-9]+}/poll
+        - id: pet-query
+          uri: http://localhost:8002
+          predicates:
+            - Path=/api/v1/pets
+#            - Path=/api/v1/pets/{petId:[0-9]+}
+        - id: side-car
+          uri: http://localhost:8003
+          predicates:
+            - Path=/api/v1/images
+
+server:
+  port: 8080
+

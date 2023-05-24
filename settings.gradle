@@ -1,0 +1,10 @@
+
+rootProject.name = 'pawwow'
+
+include 'pet-command'
+include 'pet-query'
+include 'side-car'
+include 'domain'
+include 'infrastructure'
+include 'gateway'
+
