@@ -5,8 +5,8 @@ import java.util.Optional;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import dev.saintho.pawwow.domain.entity.PetVote;
-import dev.saintho.pawwow.domain.entity.Voter;
+import dev.saintho.pawwow.domain.entity.command.PetVote;
+import dev.saintho.pawwow.domain.entity.vo.Voter;
 import dev.saintho.pawwow.domain.exception.DomainException;
 import dev.saintho.pawwow.domain.exception.ExceptionCode;
 import dev.saintho.pawwow.domain.repository.PetVoteRepository;

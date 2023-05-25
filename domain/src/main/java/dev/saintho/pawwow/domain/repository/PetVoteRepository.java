@@ -2,8 +2,8 @@ package dev.saintho.pawwow.domain.repository;
 
 import java.util.Optional;
 
-import dev.saintho.pawwow.domain.entity.PetVote;
-import dev.saintho.pawwow.domain.entity.Voter;
+import dev.saintho.pawwow.domain.entity.command.PetVote;
+import dev.saintho.pawwow.domain.entity.vo.Voter;
 
 public interface PetVoteRepository {
 	Optional<PetVote> findByCandidateIdAndVoter(Long candidateId, Voter voter);
