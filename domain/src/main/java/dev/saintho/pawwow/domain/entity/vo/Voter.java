@@ -1,4 +1,4 @@
-package dev.saintho.pawwow.domain.entity;
+package dev.saintho.pawwow.domain.entity.vo;
 
 import java.util.Objects;
 

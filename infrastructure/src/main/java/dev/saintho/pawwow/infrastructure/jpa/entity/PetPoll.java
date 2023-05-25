@@ -5,10 +5,8 @@ import java.time.LocalDateTime;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import dev.saintho.pawwow.domain.entity.PetCandidate;
-import dev.saintho.pawwow.domain.entity.PetVotable;
-import dev.saintho.pawwow.domain.entity.PetVote;
-import dev.saintho.pawwow.domain.entity.Voter;
+import dev.saintho.pawwow.domain.entity.command.PetVotable;
+import dev.saintho.pawwow.domain.entity.vo.Voter;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;

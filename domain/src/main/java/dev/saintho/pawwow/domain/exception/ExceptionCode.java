@@ -14,7 +14,7 @@ public enum ExceptionCode {
 		return defaultMessage;
 	}
 
-	private ExceptionCode(int statusCode, String defaultMessage) {
+	ExceptionCode(int statusCode, String defaultMessage) {
 		this.statusCode = statusCode;
 		this.defaultMessage = defaultMessage;
 	}

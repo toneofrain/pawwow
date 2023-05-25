@@ -6,9 +6,9 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import dev.saintho.pawwow.domain.entity.PetCandidatable;
-import dev.saintho.pawwow.domain.entity.PetCandidate;
-import dev.saintho.pawwow.domain.entity.PetType;
+import dev.saintho.pawwow.domain.entity.command.PetCandidatable;
+import dev.saintho.pawwow.domain.entity.command.PetCandidate;
+import dev.saintho.pawwow.domain.entity.vo.PetType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EntityListeners;

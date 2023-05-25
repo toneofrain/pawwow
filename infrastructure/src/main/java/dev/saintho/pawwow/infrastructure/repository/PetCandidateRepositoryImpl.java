@@ -3,10 +3,9 @@ package dev.saintho.pawwow.infrastructure.repository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import dev.saintho.pawwow.domain.entity.PetCandidate;
+import dev.saintho.pawwow.domain.entity.command.PetCandidate;
 import dev.saintho.pawwow.domain.exception.DomainException;
 import dev.saintho.pawwow.domain.exception.ExceptionCode;
-import dev.saintho.pawwow.domain.outbox.OutboxEventType;
 import dev.saintho.pawwow.domain.repository.PetCandidateRepository;
 import dev.saintho.pawwow.infrastructure.jpa.dao.PetJpaDao;
 import dev.saintho.pawwow.infrastructure.jpa.entity.Pet;
