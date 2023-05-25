@@ -1,7 +1,6 @@
 package dev.saintho.pawwow.domain.entity.command;
 
 import dev.saintho.pawwow.domain.entity.vo.PetType;
-import dev.saintho.pawwow.domain.entity.command.PetCandidatable;
 
 public class PetCandidate {
 	private Long id;
