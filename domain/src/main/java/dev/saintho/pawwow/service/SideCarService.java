@@ -1,4 +1,4 @@
-package dev.saintho.pawwow.domain.service;
+package dev.saintho.pawwow.service;
 
 public interface SideCarService {
 

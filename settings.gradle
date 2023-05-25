@@ -7,4 +7,5 @@ include 'side-car'
 include 'domain'
 include 'infrastructure'
 include 'gateway'
+include 'common'
 
