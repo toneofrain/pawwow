@@ -1,4 +1,4 @@
-package dev.saintho.pawwow.domain.service;
+package dev.saintho.pawwow.service;
 
 import org.springframework.stereotype.Service;
 
