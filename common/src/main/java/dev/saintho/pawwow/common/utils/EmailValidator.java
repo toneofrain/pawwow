@@ -1,4 +1,4 @@
-package dev.saintho.pawwow.utils;
+package dev.saintho.pawwow.common.utils;
 
 import java.util.regex.Pattern;
 

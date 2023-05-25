@@ -18,6 +18,30 @@ public class PetCandidate {
 			petCandidatable.getType());
 	}
 
+	public Long getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getProfileImage() {
+		return profileImage;
+	}
+
+	public String getBriefDescription() {
+		return briefDescription;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public PetType getType() {
+		return type;
+	}
+
 	private PetCandidate(Long id, String name, String profileImage, String briefDescription, String description,
 		PetType type) {
 		this.id = id;

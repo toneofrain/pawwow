@@ -2,6 +2,6 @@ package dev.saintho.pawwow.domain.entity;
 
 public interface PetVotable {
 	Long getId();
-	PetCandidate getCandidate();
+	Long getCandidateId();
 	Voter getVoter();
 }
